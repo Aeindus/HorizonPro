@@ -1,0 +1,10 @@
+LIBRARY loader
+EXPORTS
+coInitComponent
+getVersion
+getType
+DllGetClassObject PRIVATE 
+DllCanUnloadNow  PRIVATE 
+install
+uninstall
+debug

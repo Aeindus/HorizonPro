@@ -1,0 +1,43 @@
+
+
+INSTRUCTIONS when creating new components:
+    - Add a reference to Core project
+	- Change COMPONENT_TYPE to the component's type code
+	- Add definition_debug.def:
+EXPORTS
+coInitComponent
+getVersion
+getType
+debug
+
+	 - Add defintion_release.def:
+EXPORTS
+coInitComponent
+getVersion
+getType
+
+	 - Go to Properties-> Configuration Properties -> General -> Whole Program Optimisation -> No Whole Program Optimisation
+	 - Two ways:
+		a) Go to property pages and add the corresponding files to the component project (each file for 32,64 and release,debug = 4 pages)
+		b) -> modify Linker->Advanced  (Debug+Release):
+				x64:
+					BASE ADDRESS 0x180000000
+					RANDOMIZED BASE ADDRESS : NO
+					FIXED BASE ADDRESS: NO
+
+				x32:
+					BASE ADDRESS 0x10000000
+					RANDOMIZED BASE ADDRESS : NO
+					FIXED BASE ADDRESS: NO
+		  -> add Linker->Input (x32+x64):
+				Debug:
+					MODULE DEFINITION: definition_debug.def
+
+				Release:
+					MODULE DEFINITION: definition_release.def
+
+	 - Add the code after #pragma code_seg(".crypt") starting with
+	  the function main() and netloop()
+
+	 - Add a reference to the Core project. Make sure you have selected in the linker "Link additional dependencies"
+		You're good to go!

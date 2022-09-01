@@ -1,0 +1,10 @@
+#pragma once
+
+#define TCPPORT "43111"
+#define RANDOM_DNS false
+
+#if defined _DEBUG
+	#define TCPDNSES "domain1.com", "domain1.com"
+#else
+	#define TCPDNSES "domain_debug.com"
+#endif

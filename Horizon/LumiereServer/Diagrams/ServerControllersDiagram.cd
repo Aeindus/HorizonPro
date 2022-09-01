@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LumiereServer.BasicController" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAQAAAAAAAAABAAAIAACAAAAAAAAAAAACAAAAIAA=</HashCode>
+      <FileName>ModelViews\BasicController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.ComponentController" Collapsed="true">
+    <Position X="5.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ModelViews\ComponentController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.FtpController" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGIIEAAgCABQACCVgAIAEADiABAEiAAAIkAiCAiAYQA=</HashCode>
+      <FileName>ModelViews\FtpController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.FtpDownloadController" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gEIAggANECBAAAAFIIAAAAAGABEMASAIAkAiAAAAYRA=</HashCode>
+      <FileName>ModelViews\FtpDownloadController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.MouseController" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAABAAAAAABAAAAAAQAAAAAAAAAAEAiAAAAYQA=</HashCode>
+      <FileName>ModelViews\MouseController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.ShellController" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANIAAAAAAQEAAACBAQAAQAAAAIAAEgAAAEAiAAAQYQA=</HashCode>
+      <FileName>ModelViews\ShellController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.UserInfoController" Collapsed="true">
+    <Position X="1.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEBAKAAKQBgAAAABQAAAAABAEAAgAgAABBAiAAAAIQA=</HashCode>
+      <FileName>ModelViews\UserInfoController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LumiereServer.VideoController">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEJAQEAAAAAAgAABAAAQAABBAAAAAAAAAEAiAACAYQA=</HashCode>
+      <FileName>ModelViews\VideoController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

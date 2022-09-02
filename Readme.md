@@ -45,8 +45,16 @@ Screenshots
 Diagrams
 ----------------
   
-  Logic diagram:
+- Logic diagram of the entire system:
   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/25268629/188135965-f5794021-8445-491c-8748-0633e70d9a49.png" width="600">
+</p>
+
+<br>
+
+- Logic diagram for user/component selection implemented in server:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25268629/188223862-f7fd0afd-6ba4-4830-84f9-c28864df0229.png" width="600">
 </p>
